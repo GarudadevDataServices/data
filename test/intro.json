@@ -47,7 +47,7 @@
   "Toolbar" : "Home",
   "buttonSize" : {
     "div" : 10,
-    "img" : 400,
-    "text" : 40
+    "img" : 200,
+    "text" : 20
   }
 }
