@@ -48,6 +48,6 @@
   "buttonSize" : {
     "div" : 10,
     "img" : 200,
-    "text" : 20
+    "text" : 15
   }
 }
