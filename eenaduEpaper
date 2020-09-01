@@ -1,0 +1,60 @@
+<html>
+   <head>
+      <title>Andhra-Pradesh</title>
+      <link href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>  
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>  
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script> 
+
+   <script type="text/javascript">
+       $(function() {
+               $("#example1").datepicker({ dateFormat: "dd-mm-yy",maxDate: '0' })
+       });
+   </script>
+   </head>
+
+   <body>
+      <a href="" id="Download" download=""></a>
+	<script>
+	function register()
+	{
+	const urlParams = new URLSearchParams(window.location.search);
+	const myParam = urlParams.get('loc');
+	var today=document.getElementById("example1").value;
+	var request = new XMLHttpRequest();
+	request.onload = function () {
+		link=request.responseText;
+		link=link.slice(1,-1);
+		document.getElementById("Download").href=link;
+		//document.getElementById("Download").click();
+	};
+	request.open('GET','https://eenadu.firebaseio.com/een/'+today+'/'+myParam+'/.json');link=request.send();
+	}
+	</script><br>
+
+      <center><img alt="https://drive.google.com/uc?id=1cOMzqhqHYI4QNyEZk6DUR6pS9l2ES19U&export=download" src="https://raw.githubusercontent.com/GarudadevDataServices/data/master/test/120047139.jpg" width="600" height="200" ></center>
+      <br>
+      <center>
+         <h2><b>Date :   </b><input class="button"  value ="datefailed"  id="example1" style="color:black;font-size:30;width:175px;height:50px;" readonly></h2>
+       <script type="text/javascript">
+		var today = new Date();
+		var dd = String(today.getDate()).padStart(2, '0');
+		var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+		var yyyy = today.getFullYear();
+		today = dd + '-' + mm + '-' + yyyy;
+		document.getElementById("example1").value=today;
+       </script>
+      </center>
+      <h1>
+      <script type="text/javascript">
+      	var data={1: 'TELANGANA', 2: 'ANDHRA PRADESH', 27: 'HYDERABAD', 25: 'ADILABAD', 26: 'BHADRADRI KOTHAGUDEM', 239: 'CYBERABAD', 28: 'JAGTIAL', 29: 'JANGAON', 30: 'JAYASHANKAR BHUPALPALLY', 31: 'JOGULAMBA GADWAL', 32: 'KAMAREDDY', 33: 'KARIMNAGAR', 13: 'KARNATAKA', 34: 'KHAMMAM', 35: 'KUMURAM BHEEM', 36: 'MAHABUBABAD', 37: 'MAHABUBNAGAR', 38: 'MANCHERIAL', 39: 'MEDAK', 275: 'MULUGU', 40: 'NAGARKURNOOL', 41: 'NALGONDA', 301: 'NARAYANPET', 42: 'NIRMAL', 43: 'NIZAMABAD', 17: 'ORISSA', 44: 'PEDDAPALLE', 45: 'RAJANNA SIRCILLA', 46: 'SANGAREDDY', 238: 'SECUNDERABAD', 47: 'SIDDIPET', 48: 'SURYAPET', 20: 'TAMILNADU', 49: 'VIKARABAD', 50: 'WANAPARTHY', 51: 'WARANGAL', 52: 'WARANGAL GRAMEENAM', 53: 'YADADRI BHUVANAGIRI', 6: 'AMARAVATI', 7: 'ANANTAPUR', 8: 'CHITTOOR', 9: 'EAST GODAVARI', 10: 'GUNTUR CITY', 11: 'GUNTUR RURAL', 12: 'KADAPA', 14: 'KRISHNA', 15: 'KURNOOL', 16: 'NELLORE', 18: 'PRAKASAM', 19: 'SRIKAKULAM', 21: 'VISAKHAPATNAM', 22: 'VISAKHAPATNAM CITY', 23: 'VIZIANAGARAM', 24: 'WEST GODAVARI'};
+      	const urlParams = new URLSearchParams(window.location.search);
+		const myParam = urlParams.get('loc');
+      	document.write("<center><b>Download "+data[myParam]+"</b></center>");
+      </script>
+      <br>
+      <center><button style="color:black;font-size:30;width:600px;height:70px;" onclick="register()"> Download </button></center>
+      <h1>
+         <center><a href="https://garudadev.herokuapp.com/allPapers" ><button style="color:black;font-size:30;width:600px;height:70px;"> More Papers</button></a></center>
+      </h1>
+   </body>
+</html>
