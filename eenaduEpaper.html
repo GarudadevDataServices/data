@@ -25,7 +25,7 @@
 		link=request.responseText;
 		link=link.slice(1,-1);
 		document.getElementById("Download").href=link;
-		//document.getElementById("Download").click();
+		document.getElementById("Download").click();
 	};
 	request.open('GET','https://eenadu.firebaseio.com/een/'+today+'/'+myParam+'/.json');link=request.send();
 	}
