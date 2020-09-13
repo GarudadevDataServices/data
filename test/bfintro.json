@@ -1,0 +1,96 @@
+{
+  "Screen-type": "IntroScreen",
+  "Appbar": {
+    "appBarHeight": 225,
+    "appBarColor1": [239,242,46,1],
+    "appBarColor2": [245,140,20,0.5],
+    "decorationUrl": "https://raw.githubusercontent.com/abuanwar072/Covid-19-Flutter-UI/master/assets/images/virus.png",
+    "imageTop": 25,
+    "imageLeft": 0,
+    "imageUrl": "https://scontent.fhyd6-1.fna.fbcdn.net/v/t1.15752-0/p280x280/119024690_368691327639533_6903630527628655084_n.png?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=oaHR1AW6IDAAX-iUQei&_nc_ht=scontent.fhyd6-1.fna&oh=ec7aee5bdc53387fb375f0323eab12f4&oe=5F82BE8B",
+    "titleTop": 55,
+    "title": " Namaste!!! welcome to our app",
+    "titleFontSize": 23,
+    "imageWidth": 200,
+    "titleColor": [255,132,0,1]
+  },
+  "TextScroll": {
+    "status": true,
+    "matter": "Best App for reading newspapers..   Please we request all to install this app     ",
+    "velocity": 50
+  },
+  "Objects": [
+    {
+      "buttonType": "singleRowContainer",
+      "screenRouteType": "SecoundScreen",
+      "screenRoute": "",
+      "url": "https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/118081920_1146583079058889_5293065525771185914_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=jGQlUq4NGBYAX9g7Xhx&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=db13e4413c410a3547ac2d05b948a7af&oe=5F605C68",
+      "buttonHeight": 150,
+      "title": "Andhra Pradesh",
+      "titleFontSize": 15,
+      "subText": "Eenadu,Andhra-jyothi,Sakshi,Andhra Bhommi and 12 more..."
+    },
+    {
+      "buttonType": "singleRowContainer",
+      "screenRouteType": "SecoundScreen",
+      "screenRoute": "",
+      "url": "https://1.bp.blogspot.com/-SjEpOgnyrmk/VPydJ7Nby3I/AAAAAAAAAPE/WTHAaOKdJIA/s1600/Telangana.png",
+      "buttonHeight": 150,
+      "title": "Telangana",
+      "titleFontSize": 15,
+      "subText": "Eenadu,Andhra-jyothi,Sakshi and 13 more..."
+    },
+    {
+      "buttonType": "singleColumnContainer",
+      "screenRouteType": "SecoundScreen",
+      "screenRoute": "",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-0/p280x280/117981622_3126649607456497_8463897479602032904_n.png?_nc_cat=101&_nc_sid=b96e70&_nc_ohc=JQnkhRbI1YYAX86m9DY&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=d25138e14dc1c79e8888e1a7ccefc2e7&oe=5F640B31",
+      "totalHeight": 225,
+      "buttonHeight": 200,
+      "topLeave": 60,
+      "titleText": "Education",
+      "titleFontSize": 15,
+      "subText": "All Newspaper educations, Pratibha and 12 more...",
+      "imageHeight": 75
+    },
+    {
+      "buttonType": "singleColumnContainer",
+      "screenRouteType": "SecoundScreen",
+      "screenRoute": "",
+      "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/515cl%2B02yjL.png",
+      "totalHeight": 225,
+      "buttonHeight": 200,
+      "topLeave": 60,
+      "titleText": "English Newspapers",
+      "titleFontSize": 15,
+      "subText": "Hindu,TOI,DC and 5 more...",
+      "imageHeight": 75
+    }
+    {
+      "buttonType": "singleColumnContainer",
+      "screenRouteType": "SecoundScreen",
+      "screenRoute": "",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/546bda42e4b02689ea84e659/1434908135361-GF5OZKCX107Q6XNSVZAS/ke17ZwdGBToddI8pDm48kNiEM88mrzHRsd1mQ3bxVct7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0topjEaZcWjtmMYdCWL4dkGbxs35J-ZjFa9s1e3LsxrX8g4qcOj2k2AL08mW_Htcgg/vietnamwarfilm",
+      "totalHeight": 225,
+      "buttonHeight": 200,
+      "topLeave": 60,
+      "titleText": "Movie Magines",
+      "titleFontSize": 15,
+      "subText": "ChitraPrabha,tollywood and 7 more...",
+      "imageHeight": 75
+    },
+    {
+      "buttonType": "singleColumnContainer",
+      "screenRouteType": "SecoundScreen",
+      "screenRoute": "",
+      "imageUrl": "https://scontent.xx.fbcdn.net/v/t1.15752-9/118983288_862847920787071_7368165854630100661_n.png?_nc_cat=109&_nc_sid=b96e70&_nc_ohc=C4qGiUqtQcEAX_wI_tJ&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=936341878fffd78e8ea164599c7ae2b4&oe=5F8132B5",
+      "totalHeight": 225,
+      "buttonHeight": 200,
+      "topLeave": 60,
+      "titleText": "Devotional",
+      "titleFontSize": 15,
+      "subText": "BhagwathaGita, Saptagiri,Bible,Quran and 7 more...",
+      "imageHeight": 75
+    }
+  ]
+}
